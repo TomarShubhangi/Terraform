@@ -1,0 +1,20 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+crash.log
+terraform.tfvars
+
+# SSH Keys (outside project dir)
+../target_ubuntu.pem
+
+# Secrets / Env files
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# MacOS
+.DS_Store
+
